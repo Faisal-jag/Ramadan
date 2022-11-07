@@ -9,7 +9,7 @@
 } */
 body{
 margin:0;
-padding:20px;
+/* padding:20px; */
 }
 
 *{
@@ -22,20 +22,20 @@ border-collapse: collapse;
 border-radius: 8px;
 margin-top: 20px;
 }
-.table tr{
+/* .table tr{
 border: 4px solid rgb(79, 75, 75);
 border-radius: 8px;
 }
 .table tbody tr{
 background-color: rgba(244, 242, 234, 0.4);
-}
+} */
 
 .table td,.table th{
 padding:12px 15px;
 border:1px solid rgb(79, 75, 75);
 text-align: top;
 font-weight: bold;
-font-size: 16px;
+font-size: 12px;
 
 }
 
@@ -59,22 +59,22 @@ background-color: #f5f5f5;
   display: block;
   width: 100%;
 }
-.table tr{
+/* .table tr{
   margin-bottom:15px;
-}
+} */
 .table td{
   text-align: right;
-  padding-left: 50%;
-  text-align: right;
+  padding-left: 20%;
+  text-align: top;
   position: relative;
 }
 .table td::before{
   content: attr(data-label);
   position: absolute;
   left:0;
-  width: 50%;
-  padding-left:15px;
-  font-size:15px;
+  width: 15%;
+  padding-left:5px;
+  font-size:12px;
   font-weight: bold;
   text-align: left;
 }
